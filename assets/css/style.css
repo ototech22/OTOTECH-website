@@ -14,6 +14,8 @@ p {
 	font-size: 14px;
 	color: #666666;
 	line-height: 30px;
+	text-transform: capitalize;
+	font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 a {
 	text-decoration: none!important;
@@ -22,10 +24,12 @@ ul {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	font-family: verdana !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
+	font-family: verdana !important;
 	
 }
 
@@ -247,9 +251,19 @@ header {
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+	
 }
 header .navbar {
 	padding: 20px 0px;
+
+	
+}
+header img{
+	width:40px;
+	height: 40px;
+	margin-top: -0.5%;
+	margin-left: -4%;
+	position: absolute;
 }
 .background-header .navbar {
 	padding: 10px 0px;
@@ -278,6 +292,7 @@ header .navbar {
 	float: 	left;
 	margin-top: 12px;
 	outline: none;
+	display: flex;
 }
 .navbar .navbar-brand h2 {
 	color: white;
@@ -316,9 +331,9 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: rgb(236, 151, 53);
+	color:rgb(90, 54, 14);
 	font-weight: 900;
-	border-bottom: 3px solid rgb(236, 151, 53);
+	border-bottom: 3px solid rgb(90, 54, 14);
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -350,8 +365,10 @@ header .navbar {
   display: block;
   overflow: hidden;
   position: relative;
-  text-align: center
+  text-align: center;
+
 }
+
 
 .img-fill img {
   min-height: 100%;
@@ -420,7 +437,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:rgb(236, 151, 53);
+  color:rgb(90, 54, 14);
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -439,7 +456,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:rgb(236, 151, 53);
+  color:rgb(90, 54, 14);
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -468,7 +485,7 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:rgb(236, 151, 53);
+  color:rgb(90, 54, 14);
   animation:fadeOutRight 1s both;
 }
 
@@ -619,12 +636,14 @@ ul.slick-dots {
 
 .fun-facts em {
 	font-style: normal;
-	color: rgb(236, 151, 53);
+	color: rgb(90, 54, 14);
+	font-family: verdana;
 }
 
 .fun-facts p {
 	color: #fff;
 	margin-bottom: 40px;
+	font-family: verdana;
 }
 
 .fun-facts .left-content {
@@ -633,21 +652,21 @@ ul.slick-dots {
 
 .count-area-content {
 	text-align: center;
-	background-color: rgba(250,250,250,0.1);
+	background-color: rgb(65, 52, 52);
 	padding: 25px 30px 35px 30px;
 	margin: 15px 0px;
 }
 
 .count-digit {
     margin: 5px 0px;
-    color: rgb(236, 151, 53);;
+    color: rgb(155, 148, 141);
     font-weight: 700;
     font-size: 36px;
 }
 .count-title {
     font-size: 20px;
     font-weight: 600;
-    color: rgb(236, 151, 53);;
+    color:rgb(155, 148, 141);
     letter-spacing: 0.5px;
 }
 
@@ -698,7 +717,7 @@ ul.slick-dots {
 
 .more-info .right-content em {
 	font-style: normal;
-	color: rgb(236, 151, 53);;
+	color: rgb(90, 54, 14);
 }
 
 .more-info .right-content p {
@@ -713,7 +732,7 @@ ul.slick-dots {
 }
 
 .testimonials {
-	margin-top: 0px;
+	margin-top: -25%;
 	background-color: black;
 	padding: 140px 0px;
 }
@@ -731,7 +750,7 @@ ul.slick-dots {
 .testimonial-item h4 {
 	font-size: 19px;
 	font-weight: 700;
-	color:rgb(236, 151, 53);;
+	color:rgb(129, 74, 10);
 	letter-spacing: 0.5px;
 	margin-bottom: 0px;
 }
@@ -740,7 +759,7 @@ ul.slick-dots {
 	margin-top: 8px;
 	font-weight: 600;
 	font-size: 14px;
-	color: rgb(236, 151, 53);
+	color: rgb(129, 74, 10);
 }
 .testimonial-item img {
 	max-width: 60px;
@@ -849,7 +868,7 @@ ul.slick-dots {
 
 .callback-form .contact-form button.border-button:hover {
 	background-color: #fff;
-	color: rgb(236, 151, 53);;
+	color: rgb(90, 54, 14);
 }
 
 .contact-us .contact-form button.filled-button {
@@ -945,7 +964,7 @@ footer ul.social-icons li a {
 }
 
 footer ul.social-icons li a:hover {
-	background-color:rgb(236, 151, 53) ;
+	background-color:rgb(90, 54, 14) ;
 	color: white;
 }
 
@@ -964,7 +983,7 @@ footer ul.menu-list li a {
 }
 
 footer ul.menu-list li a:hover {
-	color:rgb(236, 151, 53);
+	color:rgb(90, 54, 14);
 }
 
 footer .contact-form input {
@@ -1025,7 +1044,7 @@ footer .contact-form ::placeholder {
 footer .contact-form button.filled-button {
 	background-color: transparent;
 	color: #fff;
-	background-color: rgb(236, 151, 53);
+	background-color:rgb(90, 54, 14);
 	border: none;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -1042,7 +1061,7 @@ footer .contact-form button.filled-button {
 
 footer .contact-form button.filled-button:hover {
 	background-color: #fff;
-	color: rgb(236, 151, 53);
+	color: rgb(90, 54, 14);
 }
 
 
@@ -1062,7 +1081,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .sub-footer a {
-	color: rgb(236, 151, 53);
+	color: rgb(90, 54, 14);
 }
 
 
@@ -1107,6 +1126,7 @@ footer .contact-form button.filled-button:hover {
 
 .team-item img {
 	width: 100%;
+	height: 45vh;
 	overflow: hidden;
 }
 
@@ -1159,7 +1179,7 @@ footer .contact-form button.filled-button:hover {
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
-	background-color: rgb(236, 151, 53);
+	background-color: rgb(90, 54, 14);
   	font-size: 20px;
   	color: #121212;
   	letter-spacing: 0.5px;
@@ -1250,6 +1270,7 @@ footer .contact-form button.filled-button:hover {
 	.sub-header {
 		display: none;
 	}
+	
 	.Modern-Slider .item h6 {
 	  margin-bottom: 15px;
 	  font-size: 18px;

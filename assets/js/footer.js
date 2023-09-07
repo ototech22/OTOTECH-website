@@ -7,10 +7,10 @@ function createFooter() {
           <h4>OTOTECH Industries</h4>
           <p> For more enquires and service placement please feel free to contact us through the following Social media's.</p>
           <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100084169855125"><i class="fa fa-facebook"></i></a></li>
             <li><a href="tel:08160816821"><i class="fa fa-phone"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/michael-otote-108747224"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://wa.me/message/IJY4J65J53SXA1"><i class="fa fa-whatsapp"></i></a></li>
             <li><a href="mailto:ototechindutries@gmail.com?subject={subject}&body={content}"><i class="fa fa-google"></i></a></li>
             <li><a href="sms:08160816821?body={content}"><i class="fa fa-envelope"></i></a></li>
           </ul>
@@ -25,10 +25,10 @@ function createFooter() {
         </ul>
       </div>
         <div class="col-md-3 footer-item">
-          <h4>Useful Links</h4>
+          <h4>Socials</h4>
           <ul class="menu-list">
-            <li><a href="#">Page Privacy</a></li>
-            <li><a href="#">Licences and Registration</a></li>
+            <li><a href="https://main--reliable-tapioca-719734.netlify.app/">Blog</a></li>
+            <li><a href="#">Biopeadia</a></li>
           </ul>
         </div>
    
