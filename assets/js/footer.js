@@ -11,7 +11,7 @@ function createFooter() {
             <li><a href="tel:08160816821"><i class="fa fa-phone"></i></a></li>
             <li><a href="https://www.linkedin.com/in/michael-otote-108747224"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://wa.me/message/IJY4J65J53SXA1"><i class="fa fa-whatsapp"></i></a></li>
-            <li><a href="mailto:ototechindutries@gmail.com?subject={subject}&body={content}"><i class="fa fa-google"></i></a></li>
+            <li><a href="mailto:ototechindutries@gmail.com?subject={subject}&body=Hello I want to build my company/personal website/mobile app and i would like to make some enquires"><i class="fa fa-google"></i></a></li>
             <li><a href="sms:08160816821?body={content}"><i class="fa fa-envelope"></i></a></li>
           </ul>
         </div>
