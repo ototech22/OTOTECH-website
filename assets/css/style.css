@@ -39,10 +39,12 @@ a.filled-button {
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 12px 30px;
+	padding: 12px 20px;
 	border-radius: 30px;
 	display: inline-block;
 	transition: all 0.3s;
+	
+	
 }
 
 a.filled-button:hover {
@@ -437,7 +439,7 @@ header img{
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:rgb(90, 54, 14);
+  color:rgb(187, 100, 0);
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -456,7 +458,7 @@ header img{
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:rgb(90, 54, 14);
+  color:rgb(187, 100, 0);
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -485,7 +487,7 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:rgb(90, 54, 14);
+  color:rgb(187, 100, 0);
   animation:fadeOutRight 1s both;
 }
 
@@ -1266,6 +1268,8 @@ footer .contact-form button.filled-button:hover {
 
 
 /* Responsive Style */
+
+}
 @media (max-width: 768px) {
 	.sub-header {
 		display: none;
@@ -1306,6 +1310,7 @@ footer .contact-form button.filled-button:hover {
 		margin-right: 0px;
 		margin-bottom: 30px;
 	}
+
 	.more-info .right-content  {
 		padding: 30px;
 	}
