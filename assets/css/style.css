@@ -1269,11 +1269,24 @@ footer .contact-form button.filled-button:hover {
 
 /* Responsive Style */
 
+@media(max-width:300px){
+	a.filled-button{
+		display: flex;
+		margin: 10px;
+		text-align: center;
+		justify-content: center;
+	}
+	.navbar .navbar-brand h2{
+		font-size: 18px;
+		margin-left: -5%;
+	}
+	
 }
 @media (max-width: 768px) {
 	.sub-header {
 		display: none;
 	}
+
 	
 	.Modern-Slider .item h6 {
 	  margin-bottom: 15px;
